@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(-90deg, blue, purple);
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    width: 100%;
+}
+
+  h1 {
+    text-align: center;
+    color: yellowgreen;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#add{
+    width: 100px;
+    height: 2.3em;
+    cursor: pointer;
+    background: yellowgreen;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.textInput{
+    width: 50%;
+    border: none;
+    padding: 14px;
+    margin-left: 20%;
+}
+
+.delete{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: yellowgreen;
+    color: white;
+}
+
+
+ul#lists{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    list-style: none;
+}
+
+ul#lists li{
+    padding: 12px;
+    background: white;
+    border: 1px solid black;
+    display:flex;
+    justify-content: space-between;
+}
